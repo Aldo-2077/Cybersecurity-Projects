@@ -208,13 +208,13 @@ In this section, we will install a Windows Server 2022 VM and use it as a templa
 
 - After the server installs updates and restarts, we can stop SConfig (the Welcome screen) from launching (see WARNING at top of screen).  By stopping SConfig, it will bring you straight to the command prompt when powering on the machine.
 
-    - Copy the command at the top **Set-SConfig -AutoLaunch $false**
+    - Copy the command at the top `Set-SConfig -AutoLaunch $false`
 
     - Use **option 15** to enter Powershell
 
     - **Paste** the command > **enter**
 
-    - Then restart with:  **shutdown /r /t 0**
+    - Then restart with:  `shutdown /r /t 0`
 
 - Verify the SConfig screen no longer displays.
 
