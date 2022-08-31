@@ -62,11 +62,11 @@ This project will demonstrate how to setup an Active Directory environment in a 
 
     - https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html
 
-<h3 align="center"><u>
+<h4 align="center">
 
-[Back to Contents](#contents)
+**[Back to Contents](#contents)**
 
-</u></h3>
+</h4>
 
 ---
 </br>
