@@ -92,7 +92,7 @@ In this section, we will install a Windows Server 2022 VM and use it as a templa
 
 - This is where we will be storing the fresh installs of the VMs to use for cloning
 
-    - ![](2022-08-29-20-46-06.png)
+    - ![](./png_files/2022-08-29-20-46-06.png)
 
 <br>
 
