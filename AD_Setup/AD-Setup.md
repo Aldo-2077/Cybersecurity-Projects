@@ -81,6 +81,12 @@ This project will demonstrate how to setup an Active Directory environment in a 
 
 ***Note: Microsoft will want you to register in order to download Server 2022***
 
+<h4 align="center">
+
+**[Back to Contents](#contents)**
+
+</h4>
+
 ---
 <br>
 
@@ -224,6 +230,12 @@ In this section, we will install a Windows Server 2022 VM and use it as a templa
 
 - Verify the SConfig screen no longer displays.
 
+<h4 align="center">
+
+**[Back to Contents](#contents)**
+
+</h4>
+
 ---
 
 <br>
@@ -265,6 +277,12 @@ Installing VMWare tools will allow us to copy and paste commands from outside th
 
 - VM installation complete.  **Poweroff** the VM.
 
+<h4 align="center">
+
+**[Back to Contents](#contents)**
+
+</h4>
+
 ---
 
 <br>
@@ -297,6 +315,13 @@ Installing VMWare tools will allow us to copy and paste commands from outside th
     - It's as simple as right-clicking on **Base-WinServer-2022 > Manage > Clone**
     
     - Name your new server and you are done.
+
+<h4 align="center">
+
+**[Back to Contents](#contents)**
+
+</h4>
+
 
 ---
 
@@ -364,6 +389,13 @@ Installing VMWare tools will allow us to copy and paste commands from outside th
 <br>
 
 - Close terminal when complete and continue with installation.
+
+<h4 align="center">
+
+**[Back to Contents](#contents)**
+
+</h4>
+
 
 ---
 
@@ -441,6 +473,13 @@ Installing VMWare tools will allow us to copy and paste commands from outside th
 
 - Let this finish updating and restarting.
 
+<h4 align="center">
+
+**[Back to Contents](#contents)**
+
+</h4>
+
+
 ---
 
 <br>
@@ -473,6 +512,13 @@ Installing VMWare tools will allow us to copy and paste commands from outside th
 
 - Shutdown machine with:  `shutdown /s /t 0`
 
+<h4 align="center">
+
+**[Back to Contents](#contents)**
+
+</h4>
+
+
 ---
 
 <br>
@@ -498,6 +544,13 @@ Installing VMWare tools will allow us to copy and paste commands from outside th
 - Finally, **drag** the base vm into the **Base_Templates folder**.
 
     ![](./png_files/2022-08-30-10-11-27.png)
+
+<h4 align="center">
+
+**[Back to Contents](#contents)**
+
+</h4>
+
 
 ---
 
@@ -527,6 +580,13 @@ In this next section, we will install Active Directory Domain Service on a new s
 > Other Active Directory services, as well as most of Microsoft server technologies, rely on or use Domain Services; examples include Group Policy, Encrypting File System, BitLocker, Domain Name Services, Remote Desktop Services, Exchange Server and SharePoint Server.
 
 > The self-managed Active Directory DS must not be confused with managed Azure AD DS, which is a cloud product.  *-Wikipedia*
+
+<h4 align="center">
+
+**[Back to Contents](#contents)**
+
+</h4>
+
 
 --- 
 
@@ -576,6 +636,13 @@ In this next section, we will install Active Directory Domain Service on a new s
 
     ![](./png_files/2022-08-30-10-27-35.png)
 
+<h4 align="center">
+
+**[Back to Contents](#contents)**
+
+</h4>
+
+
 ---
 
 <br>
@@ -597,6 +664,13 @@ In this example, we will add Windows Server 2022 as a domain controller in a new
 > The Active Directory framework that holds the objects can be viewed at a number of levels. The forest, tree, and domain are the logical divisions in an Active Directory network.
 
 > Within a deployment, objects are grouped into domains. The objects for a single domain are stored in a single database (which can be replicated). Domains are identified by their DNS name structure, the namespace.  *-Wikipedia*
+
+<h4 align="center">
+
+**[Back to Contents](#contents)**
+
+</h4>
+
 
 ---
 
@@ -623,6 +697,13 @@ In this example, we will add Windows Server 2022 as a domain controller in a new
 - Once it restarts, you will see your credentials are now prepended with a domain name.
 
     ![](./png_files/2022-08-30-10-35-13.png)
+
+<h4 align="center">
+
+**[Back to Contents](#contents)**
+
+</h4>
+
 
 ---
 
@@ -682,6 +763,13 @@ All of the changes we make below can be done using `sconfig`, but we will make t
 
     ![](./png_files/2022-08-30-10-44-04.png)
 
+<h4 align="center">
+
+**[Back to Contents](#contents)**
+
+</h4>
+
+
 ---
 <br>
 
@@ -711,6 +799,13 @@ All of the changes we make below can be done using `sconfig`, but we will make t
 
     ![](./png_files/2022-08-30-10-56-56.png)
 
+<h4 align="center">
+
+**[Back to Contents](#contents)**
+
+</h4>
+
+
 ---
 
 <br>
@@ -738,6 +833,13 @@ All of the changes we make below can be done using `sconfig`, but we will make t
 - Change the hostname to WS-01 as we did previously for the domain controller.
 
     `Rename-Computer -NewName WS-01`
+
+<h4 align="center">
+
+**[Back to Contents](#contents)**
+
+</h4>
+
 
 ---
 
@@ -768,6 +870,13 @@ All of the changes we make below can be done using `sconfig`, but we will make t
 <br>
 
 - Power off DC-01 and take another **Snapshot** called:  **WS-01 Joined to Domain**
+
+<h4 align="center">
+
+**[Back to Contents](#contents)**
+
+</h4>
+
 
 ---
 
@@ -939,3 +1048,10 @@ Success!
 Now that we have our Active Directory setup with 101 normal users, we can build on this to harden the system and try to find vulnerabilities.
 
 More projects coming soon!
+
+<h4 align="center">
+
+**[Back to Contents](#contents)**
+
+</h4>
+
