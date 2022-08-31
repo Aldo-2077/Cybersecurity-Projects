@@ -121,7 +121,7 @@ In this section, we will install a Windows Server 2022 VM and use it as a templa
 ![](./png_files/2022-08-30-07-50-29.png)
 
 - You can select the location and name of VM as you prefer.
-    - VM Name:  **Base-WinServer-./png_files/2022**
+    - VM Name:  **Base-WinServer-2022**
 
 <br>
 
