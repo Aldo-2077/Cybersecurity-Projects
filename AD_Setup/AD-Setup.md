@@ -357,6 +357,13 @@ Installing VMWare tools will allow us to copy and paste commands from outside th
 
 ![](./png_files/2022-08-30-09-43-01.png)
 
+<h4 align="center">
+
+**[Back to Contents](#contents)**
+
+</h4>
+
+
 ---
 
 <br>
