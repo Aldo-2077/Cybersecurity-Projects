@@ -1,7 +1,5 @@
 # Active Directory Installation in PowerShell
 
-*The idea for this project was from [Josh Madakor](https://youtu.be/MHsI8hJmggI) and [John Hammond](https://youtu.be/pKtDQtsubio).*
-
 This project will demonstrate how to setup an Active Directory environment in a home lab using Windows Server 2022 and Windows 11 virtual machines.  After AD is installed, I will show what I have learned about PowerShell scripting and automate the creation of 100 Active Directory users.
 
 ---
