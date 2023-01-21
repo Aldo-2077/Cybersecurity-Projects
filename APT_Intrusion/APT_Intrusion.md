@@ -1,4 +1,4 @@
-# APT Intrusion Scenario
+# APT Intrusion Scenario (in-progress)
 
 The analysis performed in this class project aims to fulfill the analytical requirement for successful completion of the Forensics 508 course offered by SANS and to attain the Global Information Assurance Certification (GIAC) Certified Forensics Analyst (GCFA) certification.
 
