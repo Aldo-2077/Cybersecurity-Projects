@@ -5,9 +5,6 @@
 - [Network Map](#internal-network-map)
 - [DMZ Network](#dmz-network)
 - [Domain Configuration](#domain-configuration)
-
-<br>
-
 ### [Threat Hunting & Assessment](./Threat_Hunting.md)
 
 - [Malware Persistence Analysis](./Threat_Hunting.md/#malware-persistence-analysis)
@@ -22,7 +19,7 @@
     - Event Logs
 - WMI and PowerShell Log Analysis
 
-### [Triage Collection & Analysis]
+### [Triage Collection & Analysis](./Triage_Collection.md)
 
 - Remote Enterprise Forensics
     - F-Response
@@ -43,7 +40,7 @@
 - Scaling Timeline Analysis
     - ELK
 
-### [Deep Dive Forensics]
+### [Deep Dive Forensics](./Deep_Dive_Forensics.md)
 
 - Mount and Examine VSS Images
 - VSS Examination via Super Timeline
