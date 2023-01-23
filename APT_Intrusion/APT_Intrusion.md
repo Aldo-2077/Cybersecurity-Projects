@@ -1,5 +1,58 @@
 # APT Intrusion Scenario (in-progress)
+## Contents
+- [Introduction](#introduction)
+- [Scenario](#scenario)
+- [Network Map](#internal-network-map)
+- [DMZ Network](#dmz-network)
+- [Domain Configuration](#domain-configuration)
 
+<br>
+
+### [Threat Hunting & Assessment](./Threat_Hunting.md)
+
+- [Malware Persistence Analysis](./Threat_Hunting.md/#malware-persistence-analysis)
+    - Autorunsc.exe
+- Kansa Stack Analysis
+- Evidence of Execution
+    - Prefetch, ShimCache, Amcache
+- Tracking Credential Use
+    - Event Log Explorer
+    - EvtxEcmd
+- Tracking Lateral Movement
+    - Event Logs
+- WMI and PowerShell Log Analysis
+
+### [Triage Collection & Analysis]
+
+- Remote Enterprise Forensics
+    - F-Response
+- Creating Triage Images
+    - KAPE
+- Scaling Incident Response
+    - Velociraptor
+- Identifying Rogue Processes
+- Memory Process Objects
+- Code Injection and Rootkits
+- Memory Extraction
+- Malware Discovery
+- Filesystem Timeline Creation and Analysis
+- Super Timeline Creation
+    - Windows
+    - Linux
+- Super Timeline Analysis
+- Scaling Timeline Analysis
+    - ELK
+
+### [Deep Dive Forensics]
+
+- Mount and Examine VSS Images
+- VSS Examination via Super Timeline
+- Anti-Forensics Detection and NTFS
+- Advanced Data Recovery Prep
+- Advanced Data Recovery
+
+---
+## Introduction
 The analysis performed in this class project aims to fulfill the analytical requirement for successful completion of the Forensics 508 course offered by SANS and to attain the Global Information Assurance Certification (GIAC) Certified Forensics Analyst (GCFA) certification.
 
 This project will showcase:
@@ -13,7 +66,7 @@ This project will showcase:
 ## Scenario
 An advanced persistent threat (APT) was detected on the network of a medium-sized enterprise after unusual behavior was observed on the corporate network. 
 - Specifically, the mail server experienced multiple instances of unresponsiveness and the web server went offline during a critical business period. 
-- The IT staff, suspecting malicious activity as the root cause, initiated triage steps against the corporate Exchange mail server by collecting memory and file system images using the Kansa Incident Response Framework and F-Response. 
+- The IT staff, suspecting malicious activity as the root cause, initiated triage steps against the corporate Exchange mail server by collecting memory and file system images using the Kansa Incident Response Framework and F-Response (09/05/18). 
 - As the investigation progressed, additional triage images and full disk images were collected over the course of several days. 
 - Initial analysis suggests that multiple hosts were likely compromised. 
 - Due to a lack of sufficient staffing and expertise, the company decided to hire an outside consulting firm to complete the response and scope the intrusion fully.
