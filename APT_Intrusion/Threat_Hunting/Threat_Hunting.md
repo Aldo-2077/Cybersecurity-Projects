@@ -3,6 +3,21 @@
 - Upon confirming that a system is suspect or compromised, our protocol begins by examining the network utilizing scalable tools for data collection and analysis.  
 - We prioritize stacking occurrence and analyzing outliers.
 
+## Contents
+
+- [Malware Persistence Analysis](#malware-persistence-analysis)
+    - Autorunsc.exe, Timeline Explorer, base64 -d
+- [Kansa Stack Analysis](#kansa-stack-analysis)
+- [Evidence of Execution](#evidence-of-execution)
+    - [Prefetch](#prefetch)
+    - [ShimCache](#shimcache)
+    - [Amcache](#amcache)
+- [Tracking Credential Use](#tracking-credential-use)
+    - [Event Log Explorer](#event-log-explorer)
+    - [EvtxEcmd](#evtxecmd)
+- [Tracking Lateral Movement](#tracking-lateral-movement)
+    - Event Logs
+- [WMI and PowerShell Log Analysis](#wmi-and-powershell-log-analysis)
 ## Malware Persistence Analysis
 
 - We were provided with a large collection of triage files and memory images to analyze.
@@ -99,4 +114,23 @@ While instances of trusted companies having their code signing certificates stol
     
     - Additionally, researching the vendor and product listed in the "Publisher" and "Description" fields can provide more information. 
     
-    - Lastly, comparing the output with baselined output from a trusted, similar system can help identify any abnormalities. 
+    - Lastly, comparing the output with baselined output from a trusted, similar system can help identify any abnormalities.
+
+---
+
+## Kansa Stack Analysis
+
+---
+## Evidence of Execution
+### Prefetch
+### ShimCache
+### Amcache
+---
+## Tracking Credential Use
+### Event Log Explorer
+### EvtxEcmd
+---
+## Tracking Lateral Movement
+---
+
+## WMI and PowerShell Log Analysis
