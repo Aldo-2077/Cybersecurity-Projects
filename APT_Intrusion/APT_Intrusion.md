@@ -5,9 +5,9 @@
 - [Network Map](#internal-network-map)
 - [DMZ Network](#dmz-network)
 - [Domain Configuration](#domain-configuration)
-### [Threat Hunting & Assessment](./Threat_Hunting.md)
+### [Threat Hunting & Assessment](./Threat_Hunting/Threat_Hunting.md)
 
-- [Malware Persistence Analysis](./Threat_Hunting.md/#malware-persistence-analysis)
+- [Malware Persistence Analysis](./Threat_Hunting/Threat_Hunting.md/#malware-persistence-analysis)
     - Autorunsc.exe, Timeline Explorer, base64 -d
 - Kansa Stack Analysis
 - Evidence of Execution
