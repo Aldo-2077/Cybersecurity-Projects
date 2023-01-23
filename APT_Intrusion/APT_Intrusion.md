@@ -8,7 +8,7 @@
 ### [Threat Hunting & Assessment](./Threat_Hunting.md)
 
 - [Malware Persistence Analysis](./Threat_Hunting.md/#malware-persistence-analysis)
-    - Autorunsc.exe
+    - Autorunsc.exe, Timeline Explorer, base64 -d
 - Kansa Stack Analysis
 - Evidence of Execution
     - Prefetch, ShimCache, Amcache
