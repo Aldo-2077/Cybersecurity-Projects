@@ -57,6 +57,7 @@
 - This shows all http requests were made by one device:  **172.16.165.165**
 
 - We can safely assume this is the infected device
+
 ![](./pngs/2023-03-02-15-24-57.png)
 
 <br>
@@ -184,7 +185,7 @@ Since these requests look suspicious, we can see what was downloaded from this h
 
 - The above image shows a hierarchy of requests leading from one domain to the next
 
-- It is easy to see that *www.ciniholland.nl* can be the compromised site and that *24corp-shop.com* is the redirect URL to the EK landing page, *stand.trustandprobaterealty.com*
+- It is easy to see that *ciniholland.nl* can be the compromised site and that *24corp-shop.com* is the redirect URL to the EK landing page, *stand.trustandprobaterealty.com*
 
 - We should reconcile the above with evidence
 
@@ -214,7 +215,7 @@ Since these requests look suspicious, we can see what was downloaded from this h
 
 ### 6.  What is the IP address and domain name of the compromised web site?   
 - **82.150.140.30**
-- **www.ciniholland.nl**
+- **ciniholland.nl**
 
 - As from above, we see that from the HTTP Request Sequences that *ciniholland.nl* is at the top of the hierarchy, just after *Bing*
 
@@ -226,7 +227,7 @@ Since these requests look suspicious, we can see what was downloaded from this h
 
 ![](./pngs/2023-03-02-20-40-53.png)
 
-- The website *24corp-shop.com* is embedded on the landing page of *www.ciniholland.nl*
+- The website *24corp-shop.com* is embedded on the landing page of *ciniholland.nl*
 
 - The user on device 172.16.165.165 must have clicked this malicious URL on the ciniholland site and did not realize that it downloaded malicious content in the background.
 
