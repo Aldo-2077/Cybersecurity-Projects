@@ -2,12 +2,15 @@
 
 ## Table of Contents
 
-[1.  Installing Active Directory and 100 Users in PowerShell](./AD_Setup/AD-Setup.md)
+1.  [Installing Active Directory and 100 Users in PowerShell](./AD_Setup/AD-Setup.md)
 
-[2.  APT Intrusion Analysis](./APT_Intrusion/)
+1.  [Wireshark Walkthroughs](./Wireshark/)
 
-[3.  Threat Hunting](./Threat_Hunting/)
+1.  [APT Intrusion Analysis](./APT_Intrusion/)
 
-[4.  Triage Collection & Analysis](./Triage_Collection_and_Analysis/)
+1.  [Threat Hunting](./Threat_Hunting/)
 
-[5.  Deep Dive Forensics](./Deep_Dive_Forensics/)
+1.  [Triage Collection & Analysis](./Triage_Collection_and_Analysis/)
+
+1.  [Deep Dive Forensics](./Deep_Dive_Forensics/)
+
