@@ -12,7 +12,7 @@
 4. [What is the IP address and domain name that delivered the exploit kit and malware?](#4-what-is-the-ip-address-and-domain-name-that-delivered-the-exploit-kit-and-malware)
 5. [What is the redirect URL that points to the exploit kit (EK) landing page?](#5-what-is-the-redirect-url-that-points-to-the-exploit-kit-ek-landing-page)
 6. [What is the IP address and domain name of the compromised web site?](#6-what-is-the-ip-address-and-domain-name-of-the-compromised-web-site)
-7. [Besides the landing page (which contains the CVE-2013-2551 IE exploit), what other exploit(s) sent by the EK?](#7-besides-the-landing-page-which-contains-the-cve-2013-2551-ie-exploit-what-other-exploits-sent-by-the-ek)
+7. [Besides the landing page which contains the CVE-2013-2551 IE exploit, what other exploit/s sent by the EK?](#7-besides-the-landing-page-which-contains-the-cve-2013-2551-ie-exploit-what-other-exploits-sent-by-the-ek)
 8. [How many times was the payload delivered?](#8-how-many-times-was-the-payload-delivered)
 9. [Submit the pcap to VirusTotal and find out what snort alerts triggered.  What are the EK names are shown in the Suricata alerts?](#9-submit-the-pcap-to-virustotal-and-find-out-what-snort-alerts-triggered-what-are-the-ek-names-are-shown-in-the-suricata-alerts)
 10. [Check on the pcap author’s website https://www.malware-traffic-analysis.net, what has he and others been calling this exploit kit?](#10-check-on-the-pcap-authors-website-httpswwwmalware-traffic-analysisnet-what-has-he-and-virustotal-been-calling-this-exploit-kit)
