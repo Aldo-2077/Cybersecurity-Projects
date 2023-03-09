@@ -213,7 +213,7 @@ Since these requests look suspicious, we can see what was downloaded from this h
 
 <br>
 
-### 6.  What is the IP address and domain name of the compromised web site?   
+### 6. What is the IP address and domain name of the compromised web site?   
 - **82.150.140.30**
 - **ciniholland.nl**
 
@@ -244,7 +244,7 @@ Since these requests look suspicious, we can see what was downloaded from this h
 
 <br>
 
-### 7.	Besides the landing page (which contains the CVE-2013-2551 IE exploit), what other exploit(s) sent by the EK?
+### 7. Besides the landing page (which contains the CVE-2013-2551 IE exploit), what other exploit(s) sent by the EK?
 
 - After running virustotal on the files from *stand.trustandprobaterealty.com*, the html page, the .swf, and the .jar files came back as malicious
 
@@ -264,7 +264,7 @@ Since these requests look suspicious, we can see what was downloaded from this h
 
 <br>
     
-### 8.	How many times was the payload delivered?
+### 8. How many times was the payload delivered?
 
 - How do we find the payload?  What is a payload?
 
@@ -360,7 +360,7 @@ c.	Looking at the Export Objects window again have a look at the 401kB file.  No
 
 <br>
 
-### 9.	Submit the pcap to VirusTotal and find out what snort alerts triggered.  What are the EK names are shown in the Suricata alerts?
+### 9. Submit the pcap to VirusTotal and find out what snort alerts triggered.  What are the EK names are shown in the Suricata alerts?
 
 - Below the pcap is flagged as malicious with several CVEs associated
  
@@ -384,7 +384,7 @@ c.	Looking at the Export Objects window again have a look at the 401kB file.  No
 
 <br>
 
-### 10.	Check on the pcap author’s website (https://www.malware-traffic-analysis.net), what has he and Virustotal been calling this exploit kit?
+### 10. Check on the pcap author’s website (https://www.malware-traffic-analysis.net), what has he and Virustotal been calling this exploit kit?
 
 - Rig Exploit Kit
 
@@ -394,7 +394,7 @@ c.	Looking at the Export Objects window again have a look at the 401kB file.  No
 
 <br>
 
-### 11.	What file or page from the compromised website has the malicious script with the URL for the redirect?
+### 11. What file or page from the compromised website has the malicious script with the URL for the redirect?
 
 - The index page from *ciniholland.nl* had the malicious script with the redirect URL *24corp-shop.com*
 
@@ -406,7 +406,7 @@ c.	Looking at the Export Objects window again have a look at the 401kB file.  No
 
 <br>
 
-### 12.	Extract the exploit file(s).  What is(are) the md5 file hash(es)?
+### 12. Extract the exploit file(s).  What is(are) the md5 file hash(es)?
 
 ![](./pngs/2023-03-02-22-26-59.png)
     
