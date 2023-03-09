@@ -17,7 +17,7 @@
 9. [Submit the pcap to VirusTotal and find out what snort alerts triggered.  What are the EK names are shown in the Suricata alerts?](#9-submit-the-pcap-to-virustotal-and-find-out-what-snort-alerts-triggered-what-are-the-ek-names-are-shown-in-the-suricata-alerts)
 10. [Check on the pcap author’s website https://www.malware-traffic-analysis.net, what has he and others been calling this exploit kit?](#10-check-on-the-pcap-authors-website-httpswwwmalware-traffic-analysisnet-what-has-he-and-virustotal-been-calling-this-exploit-kit)
 11. [What file or page from the compromised website has the malicious script with the URL for the redirect?](#11-what-file-or-page-from-the-compromised-website-has-the-malicious-script-with-the-url-for-the-redirect)
-12. [Extract the exploit file(s).  What is(are) the md5 file hash(es)?](#12-extract-the-exploit-files-what-isare-the-md5-file-hashes)
+12. [Extract the exploit file/s.  What is/are the md5 file hash/es?](#12-extract-the-exploit-files-what-isare-the-md5-file-hashes)
 ---
 
 ### 1. What is the IP address of the Windows VM that gets infected?  
